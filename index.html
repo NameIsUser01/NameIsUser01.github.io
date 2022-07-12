@@ -1,115 +1,86 @@
-<!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,
-         minimum-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel = "stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
 </head>
 <body>
-    <div class = "container">
-      <div class = "heroes">
-        <div class="hero">
-          <div class="image"></div>
+    <header class = "hcon">
+        <div class = "mypage"><a href="index.html" class = "menua">My Page</a></div>
+        <nav class = "moves">
+            <span><a href = "#menu1" class = "scroll">About</a></span>
+            <span><a href = "#like">Like</a></span>
+            <span><a href = "#skill">Skill</a></span>
+        </nav>
+    </header>
+    <section>
+        <div class = "container">
+            <div class = "lion"><img src = "./image/lion.jpg" width="400px" height="400px"></div>
+                <div class = "menu" id = "menu1">
+                    <div class = "text">
+                        <p>About</p>
+                        <ul>
+                        <li>이름 : 조우성</li>
+                        <li>나이 : 17</li>
+                        <li>MBTI : INFJ</li>
+                        <li>Phone : 010-4392-0526</li>
+                        <li>Email : woosoungcho@gmail.com</li>
+                        </ul>
+                    </div>
+            </div>
         </div>
-        <div class="hero">
-          <div class="image"></div>
+        <div id = "like"></div>
+        <div class = "container2">
+            <div class = "circle">
+                <div class = "liketext">음식</div>
+                <ul class = "liketextul">
+                    <li>밥</li>
+                    <li>고기</li>
+                    <li>라면</li>
+                    <li>양파, 파, 계란</li>
+                    <li>귤</li>
+                </ul>
+            </div>
+            <div class = "circle">
+                <div class = "liketext">음악</div>
+                <ul class = "liketextul">
+                    <li>Challie Puth - Light Switch</li>
+                    <li>Justin Bieber - Stay</li>
+                    <li>24kGoldn - MOOD</li>
+                </ul>
+            </div>
+            <div class = "circle">
+                <div class = "liketext">게임</div>
+                <ul class = "liketextul">
+                    <li>League of Legends</li>
+                    <li>PUBG</li>
+                    <li>Inscription</li>
+                    <li>VALORANT</li>
+                    <li>KartRider</li>
+                </ul>
+            </div>
         </div>
-        <div class="hero">
-          <div class="image"></div>
+        <div id = "skill"></div>    
+        <div class = "skilltext">
+            <div class = "skilltext2">프론트앤드</div>
+            <div class = "skilltext3">프로그래밍</div>
         </div>
-        <div class="hero">
-          <div class="image"></div>
+        <div class = "container3">
+            <div class = "container3_1">
+                <img src = "./image/html.png">
+                <img src = "./image/css.png">
+                <img src = "./image/js.png">
+            </div>
+            <div class = "container3_2">
+                <img src = "./image/c.png">
+                <img src = "./image/python.png" hspace = "10px">
+                <img src = "./image/java.png">
+            </div>
         </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-        <div class="hero">
-          <div class="image"></div>
-        </div>
-      </div>
-      <div class = "logo">
-        <img src="./images/logo_overwatch.png" alt = "Overwatch">
-      </div>
-    </div>
+    </section>
+    <script src = "./script.js"></script>
 </body>
 </html>
